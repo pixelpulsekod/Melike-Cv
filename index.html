@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Melike Çelik'in CV'si</title>
+
+    <!-- Sosyal medya paylaşımında görselin çıkmaması için meta etiketler -->
+    <meta name="twitter:card" content="none" />
+    <meta property="og:image" content="data:," />
+    <meta property="og:type" content="website" />
+    <meta name="robots" content="noimageindex" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            background: linear-gradient(135deg, #2c003e, #000000);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        img {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            max-width: 130px;
+            border-radius: 20px;
+            border: 3px solid white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 1.2rem;
+            flex-wrap: wrap;
+        }
+
+            .social-links a {
+                text-decoration: none;
+                color: #bbb;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                transition: color 0.3s ease;
+            }
+
+                .social-links a:hover {
+                    color: #fff;
+                }
+
+        .project-link {
+            margin-top: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+            .project-link a.button {
+                background-color: #6a4cae;
+                color: white;
+                padding: 6px 12px;
+                font-size: 0.9rem;
+                text-decoration: none;
+                border-radius: 5px;
+                font-weight: bold;
+                transition: background-color 0.3s ease;
+            }
+
+                .project-link a.button:hover {
+                    background-color: #7e5edf;
+                }
+
+            .project-link span.link-text {
+                color: #b497d6;
+                font-size: 0.9rem;
+                word-break: break-word;
+            }
+
+        .cv-section {
+            text-align: left;
+            margin-top: 30px;
+        }
+
+            .cv-section h2 {
+                color: #b497d6;
+                border-bottom: 1px solid #5a3e7d;
+                padding-bottom: 5px;
+            }
+
+            .cv-section p {
+                margin: 5px 0;
+                color: white;
+            }
+
+                .cv-section p a {
+                    color: #9a7bc9;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+
+                    .cv-section p a:hover {
+                        color: #d1c4f9;
+                    }
+
+        @media (max-width: 600px) {
+            img {
+                position: static;
+                display: block;
+                margin: 0 auto 20px;
+            }
+
+            .project-link {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="images/melike.jpg" alt="Melike Çelik" />
+    <h1>Melike Çelik</h1>
+
+    <div class="cv-section">
+        <h2>Eğitim</h2>
+        <p><strong>Ankara Üniversitesi</strong> - Web Tasarım ve Kodlama</p>
+        <p><strong>Arı Yazılım Eğitim Kurumları</strong> - Devam Ediyor (25.11.2024)</p>
+    </div>
+
+    <div class="cv-section">
+        <h2>Ek Eğitimler</h2>
+        <p>Dış Hekim Asistanlığı Eğitimi</p>
+        <p>Eczane Yardımcıları Personel Eğitimi</p>
+        <p>Bilgisayar İşletmenliği Eğitimi</p>
+        <p>Tıbbi Sekreterlik ve Hasta Kabul İşlemleri Eğitimi</p>
+    </div>
+
+    <div class="cv-section">
+        <h2>Beceriler</h2>
+        <p>HTML, CSS, JavaScript, C#, SQL Server, ASP.NET, Photoshop [Eğitim Görmekteyim]</p>
+    </div>
+
+    <div class="cv-section">
+        <h2>Yabancı Dil</h2>
+        <p>İngilizce (Orta seviye)</p>
+    </div>
+
+    <div class="cv-section">
+        <h2>Yaptığım Projeler</h2>
+        <div class="project-link">
+            <span class="link-text">https://habipkapaca.github.io/KapacaGayrimenkul/</span>
+            <a class="button" href="https://habipkapaca.github.io/KapacaGayrimenkul/" target="_blank" rel="noopener noreferrer">
+                İncele
+            </a>
+        </div>
+    </div>
+
+    <div class="cv-section">
+        <h2>İletişim</h2>
+        <p><strong>Telefon:</strong> <a href="tel:+905431048470">0543 104 8470</a></p>
+        <p><strong>E-posta:</strong> <a href="mailto:melikecelik539@gmail.com">melikecelik539@gmail.com</a></p>
+        <p><strong>Adres:</strong> Kocaeli / Kartepe</p>
+    </div>
+
+    <div class="social-links">
+        <a href="https://instagram.com/_melike_" target="_blank" rel="noopener noreferrer">
+            📸 Instagram: @_melike_
+        </a>
+        <a href="https://github.com/pixelpulsekod" target="_blank" rel="noopener noreferrer">
+            💻 GitHub: pixelpulsekod
+        </a>
+        <a href="https://wa.me/905431048470" target="_blank" rel="noopener noreferrer">
+            📱 WhatsApp: 0543 104 8470
+        </a>
+    </div>
+</body>
+</html>
